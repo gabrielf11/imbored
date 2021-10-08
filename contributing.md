@@ -7,7 +7,8 @@ Steps on how to contribute!
 
 ## Adding a website
 To add a website, please use this sample code
-```<div class="card" style="width: 18rem;">
+```
+<div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Secret Rick Roll</h5>
     <p class="card-text">Make rick rolls disgused as news articles!</p>
