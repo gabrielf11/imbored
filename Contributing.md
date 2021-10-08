@@ -1,5 +1,5 @@
 ---
-Permalink: gabrielf11.ga/contributing
+Permalink: /contributing/
 ---
 
 # Contributing
