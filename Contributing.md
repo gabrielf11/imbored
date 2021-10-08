@@ -1,3 +1,7 @@
+---
+Permalink: gabrielf11.ga/contributing
+---
+
 # Contributing
 Steps on how to contribute!
 
