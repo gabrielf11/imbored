@@ -1,0 +1,150 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Bored - Games</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    h3 {
+        text-align: center;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: black;
+            background: black;
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        body {
+            background: linear-gradient(-45deg, #17cf45, #3cb7e7, #23a6d5, #2370d5);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            color: black;
+        }
+    }
+</style>
+
+<body>
+    <div class="animate__animated animate__fadeIn animate__faster">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-style">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="favicon.png" alt="" width="30" height="30">
+                </a>
+                <button class="navbar-toggler navbar-burger-thing" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <!-- Navbar Items -->
+                        <a class="nav-link" href="websites.html">Websites</a>
+                        <a class="nav-link" href="videos.html">Videos</a>
+                        <a class="nav-link active" href="games.html">Games</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar end -->
+        <br>
+        <h1 class="h1-style"><strong>Games</strong></h1>
+        <h2 class="text-style" style="text-align: center;">A list of fun games! (More coming soon!)</h2>
+        <hr>
+        <br>
+        <!-- Mobile -->
+        <h3 class="text-style">Mobile</h3>
+        <br>
+        <div class="container-fluid">
+            <div class="row justify-content-center text-style">
+                <div class="card" style="width: 18rem;">
+                    <img src="/media/games/like-a-dino.png" class="card-img-top" alt="Like a Dino">
+                    <div class="card-body">
+                        <h5 class="card-title">Like a Dino</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Free - No ads</h6>
+                        <p class="card-text">A fun and simple game with a dino</p>
+                        <div class="row">
+                            <button class="btn btn-primary css-button-shadow-border-sliding--sky"
+                                style="margin-bottom: 5px;"
+                                onclick="location.href=('https://apps.apple.com/app/id1527726706')">iOS</button>
+                            <button class="btn btn-primary css-button-shadow-border-sliding--sky"
+                                onclick="location.href=('https://play.google.com/store/apps/details?id=com.super_toki.giraffe')">Google
+                                Play</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="/media/games/monumet-valley.png" class="card-img-top" alt="Monument Valley">
+                    <div class="card-body">
+                        <h5 class="card-title">Monument Valley</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$3.99 - Offers in app purchases</h6>
+                        <p class="card-text">A puzzle game with sacred geometry</p>
+                        <div class="row">
+                            <button class="btn btn-primary css-button-shadow-border-sliding--sky"
+                                style="margin-bottom: 5px;"
+                                onclick="location.href=('https://itunes.apple.com/app/monument-valley/id728293409?mt=8')">iOS</button>
+                            <button class="btn btn-primary css-button-shadow-border-sliding--sky"
+                                onclick="location.href=('https://play.google.com/store/apps/details?id=com.super_toki.giraffe')">Google
+                                Play</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- Computer -->
+        <h3 class="text-style">Computer</h3>
+        <br>
+        <div class="container-fluid">
+            <div class="row justify-content-center text-style">
+                <div class="card" style="width: 18rem;">
+                    <img src="/media/games/snk.png" class="card-img-top" alt="Snk">
+                    <div class="card-body">
+                        <h5 class="card-title">Snk</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Free - No ads</h6>
+                        <p class="card-text">Snake, with a twist</p>
+                        <div class="row">
+                            <button class="btn btn-primary css-button-shadow-border-sliding--sky"
+                                style="margin-bottom: 5px;"
+                                onclick="location.href=('https://www.mowglii.com/snk/')">macOS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+</body>
+
+</html>
