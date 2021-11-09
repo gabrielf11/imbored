@@ -1,5 +1,5 @@
 # I'm Bored
-Websites, videos, and more* to cure your bodem!
+Websites, videos, and more* to cure your boredom!
 
 
 
